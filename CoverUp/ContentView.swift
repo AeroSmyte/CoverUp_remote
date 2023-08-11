@@ -14,8 +14,8 @@ struct ContentView: View {
                                                 [Color("topBackgroundGradient"), Color("bottomBackgroundGradient")]), startPoint: .topLeading, endPoint: .bottomTrailing)
                 .ignoresSafeArea()
             VStack(spacing: 50) {
-                Image(uiImage: UIImage(named: "cover-up-text")!)
-                
+                Image(uiImage: UIImage(named: "CoverUpText")!)
+
                 Button {
                     print("Upload button tapped.")
                 } label: {
@@ -27,11 +27,6 @@ struct ContentView: View {
                         .clipShape(Capsule())
                     
                 }
-                
-//                Image(uiImage: UIImage(named: "CoverUpUploadImage")!)
-//                    .resizable()
-//                    .frame(width: 300, height: 400)
-               
                 
             }
             .padding()
